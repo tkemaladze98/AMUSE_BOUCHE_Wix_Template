@@ -2,3 +2,67 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Playfair Display', serif;
 */
+
+nav {
+    max-width:980px;
+    min-height: 78px;
+    margin: auto;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: transparent!important;
+    top: 30px;
+    border:none;
+    left: -80px;
+    text-align: right;
+}
+
+.dropdown-item {
+    font-size: 13.5px;
+    color: #a0a09f!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 18.5px;
+    color: #3f3f3f!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.navbar-collapse ul:first-child .nav-link {
+    font-size: 13.5px;
+    color: #a0a09f!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.navbar-collapse ul:first-child .active .nav-link {
+    color: #3f3f3f!important;
+}
+
+.navbar-collapse ul:first-child {
+    margin-right: 40px;
+}
+
+.fab {
+    color: black;
+    font-size: 17px;
+}
