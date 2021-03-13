@@ -1,0 +1,35 @@
+@media screen and (max-width:700px){
+    .banner-area {
+        flex-direction: column;
+    }
+
+    .banner-area .left,.right {
+        width: 100%;
+        padding:0px 10px;
+        box-sizing: border-box;
+    }
+
+    .banner-area .right {
+        padding:40px 10px;
+        margin-top: 30px;
+    }
+
+    .cards-area {
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-area .card {
+        margin-bottom: 100px;
+    }
+    
+    .cards-area .card-body {
+        bottom: -80px;
+        top: auto;
+    }
+
+    .navbar-collapse ul:last-child .nav-link {
+        margin-left: 15px;
+    }
+}
