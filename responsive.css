@@ -8,6 +8,13 @@
         padding:0px 10px;
         box-sizing: border-box;
     }
+    .dropdown-menu {
+        background-color: transparent!important;
+        top: 30px;
+        border:none;
+        left: -80px;
+        text-align: left;
+    }
 
     .banner-area .right {
         padding:40px 10px;
@@ -31,5 +38,32 @@
 
     .navbar-collapse ul:last-child .nav-link {
         margin-left: 15px;
+    }
+}
+@media screen and (max-width:620px){
+    .card-area{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-area .left{
+        width: 310px;
+    }
+    .card-area .right{
+        padding: 0px;
+    }
+    main .arrow{
+        right: 0px;
+        left: 0px;
+        margin: auto;
+    }
+    main .arrow-gif{
+        right: 0px;
+        left: 0px;
+        margin: auto;
+    }
+}
+@media screen and (max-width:460px){
+    footer nav p{
+        max-width: 180px;
     }
 }
